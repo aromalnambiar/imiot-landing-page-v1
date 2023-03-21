@@ -705,6 +705,11 @@ margin-top: 0px;
     flex-direction: column;
 }
 
+.store{
+    display: flex;
+    flex-direction: column;
+}
+
 .playstore{
     margin-top: 20px;
 }
@@ -1242,11 +1247,15 @@ font-weight: bold;
         justify-content: space-between;
     }
 
-    .playstore{
-        width: 50%;
-        height: 50%;
-        padding-top: 21px;
+    .store{
+        display: flex;
+        flex-direction: column;
     }
+
+    .playstore{
+        width: 60%;
+        height: 50%;
+        margin-left: 10px;
 }
 
 
