@@ -3,6 +3,12 @@
     src: url('../fonts/Poppins-Regular.ttf');
   }
 
+  @font-face {
+    font-family: Betterlett;
+    src: url('../fonts/Betterlett.otf');
+  }
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -59,7 +65,7 @@ li{
     color: #fff;
     font-weight: 500;
     margin: 20px;
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 .link_name:hover{
@@ -80,7 +86,7 @@ li{
 }
 
 .media{
-    margin: 5px;
+    margin: 2px;
     margin-top: 15px;
 }
 
@@ -284,9 +290,9 @@ li{
 .list_para{
     color: #fff;
     font-size: 52px;
-    font-weight: bold;
-    margin-top: -10px;
+    font-weight: 500;
     margin-left: 20px;
+    font-family: Betterlett;
 }
 
 
@@ -454,7 +460,7 @@ li{
     position: relative;
     display: flex;
     justify-content: space-between;
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
     transition: all 0.2s;
@@ -715,7 +721,7 @@ margin-top: 0px;
     justify-content: space-around;
     border: 1px solid #9256C8;
     padding: 8px;
-    width: 220px;
+    width: 270px;
     padding-left: 20px;
     padding-right: 20px;
     margin: auto;
@@ -1286,6 +1292,21 @@ font-weight: bold;
         background-position: bottom 130px left 0px;
         
     }
+
+    .team_list {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        transition: all 0.2s;
+        transform: scale(0.98);
+        will-change: transform;
+        user-select: none;
+        cursor: pointer;
+      }
+    
     
 
 }
